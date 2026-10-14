@@ -1,0 +1,111 @@
+[
+  {
+    "service_type": "exchange8:refdata",
+    "binary": "exchange8-refdata",
+    "start_priority": 10,
+    "database_env_vars": [
+      "EXCHANGE8_REFDATA_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:gateway",
+    "binary": "exchange8-gateway",
+    "database_env_vars": [
+      "EXCHANGE8_GATEWAY_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:me",
+    "binary": "exchange8-me",
+    "start_priority": 20,
+    "database_env_vars": [
+      "EXCHANGE8_ME_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:oms",
+    "binary": "exchange8-oms",
+    "start_priority": 20,
+    "database_env_vars": [
+      "EXCHANGE8_OMS_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:risk",
+    "binary": "exchange8-risk",
+    "start_priority": 20,
+    "database_env_vars": [
+      "EXCHANGE8_RISK_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:md",
+    "binary": "exchange8-md",
+    "database_env_vars": [
+      "EXCHANGE8_MD_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:vfeeds",
+    "binary": "exchange8-vfeeds",
+    "database_env_vars": [
+      "EXCHANGE8_VFEEDS_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:sor",
+    "binary": "exchange8-sor",
+    "start_priority": 30,
+    "database_env_vars": [
+      "EXCHANGE8_SOR_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:clearing",
+    "binary": "exchange8-clearing",
+    "start_priority": 40,
+    "database_env_vars": [
+      "EXCHANGE8_CLEARING_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:margin",
+    "binary": "exchange8-margin",
+    "start_priority": 40,
+    "database_env_vars": [
+      "EXCHANGE8_MARGIN_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:settlement",
+    "binary": "exchange8-settlement",
+    "start_priority": 50,
+    "database_env_vars": [
+      "EXCHANGE8_SETTLEMENT_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:regulatory",
+    "binary": "exchange8-regulatory",
+    "start_priority": 50,
+    "database_env_vars": [
+      "EXCHANGE8_REGULATORY_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:surveillance",
+    "binary": "exchange8-surveillance",
+    "start_priority": 50,
+    "database_env_vars": [
+      "EXCHANGE8_SURVEILLANCE_DATABASE_URL"
+    ]
+  },
+  {
+    "service_type": "exchange8:rfq",
+    "binary": "exchange8-rfq",
+    "start_priority": 20,
+    "database_env_vars": [
+      "EXCHANGE8_RFQ_DATABASE_URL"
+    ]
+  }
+]
