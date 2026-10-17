@@ -1,4 +1,4 @@
-# BUSINESS.md: exchange8/ — Exchange Vertical Group
+# exchange8/ — Exchange Vertical Group
 
 > Business requirements & functionality of the Exchange vertical at the
 > GROUP level. Service-level BUSINESS docs live in each repo.

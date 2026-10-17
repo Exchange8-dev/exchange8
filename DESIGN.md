@@ -1,4 +1,4 @@
-# DESIGN.md: exchange8/ — Exchange Vertical Group
+# exchange8/ — Exchange Vertical Group
 
 > Group-level design document for the Exchange vertical. Service-level
 > design docs live in each repo (`exchange8-*/DESIGN.md`). The repository-split
