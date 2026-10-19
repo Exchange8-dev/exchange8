@@ -1,4 +1,4 @@
-# exchange8/ — Exchange Vertical Group
+# exchange8/ - Exchange Vertical Group
 
 > Business requirements & functionality of the Exchange vertical at the
 > GROUP level. Service-level BUSINESS docs live in each repo.
@@ -7,7 +7,7 @@
 
 - Deliver the Exchange product line (banking/hospitality/trading/billing/
   email/exchange) on the shared Sentin8 platform.
-- One vertical team per service repo: clone, build, run, enroll — no
+- One vertical team per service repo: clone, build, run, enroll - no
   platform checkout required.
 
 ## 2. Business Capabilities
@@ -23,9 +23,9 @@ and KPIs.
 
 ## 3. Business Rules & Invariants
 
-1. The vertical never operates infrastructure — the platform group does.
+1. The vertical never operates infrastructure - the platform group does.
 2. Every tenant action is authorized via Shield (platform) and audited.
-3. Domain data lives in the `exchange8` database only — no platform-table
+3. Domain data lives in the `exchange8` database only - no platform-table
    access beyond the enroll-provisioned substrate.
 
 ## 4. Dependencies & Reliance on Other Services
