@@ -1,5 +1,7 @@
 # Exchange8
 
+> Secure Post-Quantum-Safe Securities Exchange Platform That Heals and Scales Itself.
+
 Sentin8 capital-markets vertical - exchange / MTF / ATS platform built
 as Rust services + Flutter apps on the Sentin8 platform.
 

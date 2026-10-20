@@ -1,5 +1,7 @@
 # exchange8/ - Exchange Vertical Group
 
+> Secure Post-Quantum-Safe Securities Exchange Platform That Heals and Scales Itself.
+
 > Group-level design document for the Exchange vertical. Service-level
 > design docs live in each repo (`exchange8-*/DESIGN.md`). The repository-split
 > design of record: `../design/sentin8-repository-split-design.md`.

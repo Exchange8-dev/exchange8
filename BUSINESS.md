@@ -1,5 +1,7 @@
 # exchange8/ - Exchange Vertical Group
 
+> Secure Post-Quantum-Safe Securities Exchange Platform That Heals and Scales Itself.
+
 > Business requirements & functionality of the Exchange vertical at the
 > GROUP level. Service-level BUSINESS docs live in each repo.
 
