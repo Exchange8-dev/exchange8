@@ -2,6 +2,11 @@
 
 > Secure Post-Quantum-Safe Securities Exchange Platform That Heals and Scales Itself.
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Built with Rust](https://img.shields.io/badge/Built%20with-Rust-orange.svg)](https://www.rust-lang.org/)
+[![Docs](https://img.shields.io/badge/docs-read-3aa757.svg)](https://exchange8.dev)
+[![Website](https://img.shields.io/badge/website-exchange8.dev-1a73e8.svg)](https://exchange8.dev)
+
 Sentin8 capital-markets vertical - exchange / MTF / ATS platform built
 as Rust services + Flutter apps on the Sentin8 platform.
 
