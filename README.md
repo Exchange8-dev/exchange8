@@ -32,7 +32,7 @@ Design phase complete (2026-08-29). Implementation in progress - see
 
 ---
 
-**Design attribution:** exchange8 and its underlying concepts were designed by Hamid Jahanzad <Hamid@Jahanzad.com>.
+**Architecture & Design:** exchange8 and its underlying concepts were designed by [Hamid Jahanzad](https://www.linkedin.com/in/hamidjahanzad/).
 
 ## Website
 
