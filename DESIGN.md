@@ -31,7 +31,7 @@ graph TD
 ## 2. Dependency Contract
 
 - Every service repo: `sentin8` (platform facade) + `exchange8` (vertical facade)
-  git pins only - zero path deps (RS-5), zero platform-DB roles beyond the
+  git pins only - zero path deps, zero platform-DB roles beyond the
   enroll-provisioned substrate (VDC).
 - Event ownership: every `exchange8:…` event's first segment is `exchange8` - Bus's
   produce gate enforces it; the vertical claim rides the M2M token.
@@ -56,7 +56,7 @@ fragment (RS §6).
 Per-repo unit/integration suites (`make test`); cross-vertical flows via
 `../sentin8/sentin8-e2e`.
 
-## 5.1 Fleet-run scope (group operations, STARTSCOPE-1)
+## 5.1 Fleet-run scope (group operations,)
 
 The group Makefile's `make start` boots ONLY the platform base
 (`sentin8:acme, sentin8:auth, sentin8:proxy, sentin8:bus, sentin8:sys,
@@ -70,7 +70,7 @@ dev reset): `design/sentin8-repository-split-design.md` §4.5.2.
 ## 6. Open Questions
 
 - Platform-API drift sync where applicable (see split backlog, e.g.
-  email8's RS-10).
+  email8's).
 
 ---
 
